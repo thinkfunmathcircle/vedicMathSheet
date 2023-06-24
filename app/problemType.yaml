@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ProblemType
+problemstypes:
+  - name: sqaure-2d-ends5
+    description: Sqaure of 2 digit number ends with 5
+    args:
+      - int2d
+      - int2d
+  - name: multiply-2d
+    description: Multiply 2 digit numbers

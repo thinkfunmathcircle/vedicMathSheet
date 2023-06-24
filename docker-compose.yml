@@ -1,0 +1,12 @@
+version: "3"
+services:
+  vedic-math-ui:
+    image: vedic-math-ui:v1.0
+    ports:
+      - "8282:3000"
+    depends_on:
+      - vedic-math-api
+  vedic-math-api:
+    image: vedic-math:v1.0
+    ports:
+      - "8283:80"

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: DataType
+metadata:
+  labels:
+    name: 'basicTypes'
+
+datatypes:
+  - name: INT2D
+    fn: range
+    args:
+    - 10
+    - 99
