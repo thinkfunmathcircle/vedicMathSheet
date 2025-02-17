@@ -6,7 +6,7 @@ from fastapi import FastAPI, APIRouter, Query, HTTPException, Request, Depends
 from typing import Optional, Any
 
 VERSION="1.0"
-app = FastAPI()
+app = FastAPI(title="Vedic WorkSheet Generator", root_path="/vedic")
 
 
 
